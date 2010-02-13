@@ -15,8 +15,9 @@ my $plugin = __PACKAGE__->new({
     version => $VERSION,
     author_name => 'Open MagicVox.net',
     author_link => 'http://www.magicvox.net/',
-#    doc_link => '',
+    doc_link => 'http://www.magicvox.net/archive/2010/02131254/',
     description => <<PERLHEREDOC,
+Enable you to quote the HTMLs from the another entry/webpage easily.
 PERLHEREDOC
 });
 MT->add_plugin ($plugin);
